@@ -33,14 +33,14 @@ This is a game suitable for anyone who fancy a good challenge in memorizing colo
         Level 07: 10secs
         Level 08: 10secs
 
-# Each color box will have a score tagged to it
+# Each color box will have +1/-1 tagged to it
 3. No. of color boxes to choose (click) from:
-    Level 01: 7
-    Level 02: 8
-    Level 03: 9
-    Level 04: 10
-    Level 05: 10
-    Level 06: 12
+    Level 01: 4/7
+    Level 02: 4/8
+    Level 03: 5/9
+    Level 04: 5/10
+    Level 05: 6/10
+    Level 06: 6/12
         Level 07: 18 (further)
         Level 08: 20 (further)
 
