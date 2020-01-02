@@ -15,15 +15,15 @@ This is a game suitable for anyone who fancy a good challenge in memorizing colo
 # Game-plan 👾
 1. Time to remember colors:
     Level 01: 7secs
-    Level 02: 6secs
-    Level 03: 5secs
-    Level 04: 4secs
-    Level 05: 3secs
-    Level 06: 2secs
+    Level 02: 7secs
+    Level 03: 7secs
+    Level 04: 8secs
+    Level 05: 8secs
+    Level 06: 9secs
         Level 07: 1sec
         Level 08: 0.5sec
 
-2. Time given to choose the color boxes:
+2. Time given to choose the color boxes: (removed)
     Level 01: 5secs
     Level 02: 6secs
     Level 03: 7secs
