@@ -23,7 +23,7 @@ This is a game suitable for anyone who fancy a good challenge in memorizing colo
         Level 07: 1sec
         Level 08: 0.5sec
 
-2. Time given to choose the color boxes: (removed)
+<!-- 2. Time given to choose the color boxes: (removed - no time limit)
     Level 01: 5secs
     Level 02: 6secs
     Level 03: 7secs
@@ -31,23 +31,23 @@ This is a game suitable for anyone who fancy a good challenge in memorizing colo
     Level 05: 9secs
     Level 06: 10secs
         Level 07: 10secs
-        Level 08: 10secs
+        Level 08: 10secs -->
 
 # Each color box will have +1/-1 tagged to it
 3. No. of color boxes to choose (click) from:
     Level 01: 4/7
     Level 02: 4/8
-    Level 03: 5/9
-    Level 04: 5/10
-    Level 05: 6/10
-    Level 06: 6/12
+    Level 03: 4/9
+    Level 04: 4/10
+    Level 05: 4/10
+    Level 06: 4/12
         Level 07: 18 (further)
         Level 08: 20 (further)
 
 
 
 # Further
-1. Pause function
+1. Pause function (remove)
 2. Player can input name
 3. Show user total score
 4. Play again button

@@ -1,70 +1,113 @@
 
 body {
-    background-color: #e7e7e7;
-}
-
-.logo {
-    background-image: url("assets/logo.png");
-    height: 267px;
-    width: 218px;
-    border: none;
+    background-image: url("assets/backgroundimg.png");
+    background-repeat: repeat;
 }
 
 
-.start-button {
-    background-image: url("assets/play.png");
-    background-color: #e7e7e7;
-    height: 130px;
-    width: 280px;
-    outline: none;
-
-    border: none;
-}
-
-.next-button {
-    background-color: orange;
-    height: 100px;
-    width: 200px;
-}
-
-.align-button {
-    text-align: center;
-}
-
-
-.textcontainer {
+.nav {
+    width: auto;
+    height: auto;
     float: right;
-    padding-right: 180px;
-    padding-top: 200px;
+    padding-top: 20px;
+    padding-right: 15px;
 }
 
 
 .instruction {
-    font-family: didot, serif;
-    font-weight: bold;
-    font-size: 42px;
-    font-style: italic;
-    letter-spacing: 3px;
-    color: #a28f82;
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 8px;
+    color: #896e56;
+
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
 
+.div-container {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+
+.logo {
+    margin: auto;
+    width: 10%;
+    height: auto;
+    padding-top: 140px;
+}
+
+
+.button {
+    margin: auto;
+    height: auto;
+    width: 12%;
+
+    padding-top: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+.next-button {
+    width: 12%;
+    height: auto;
+
+    margin: auto;
+    padding-top: 70px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+.instruction-emoji {
+    font-size: 40px;
+}
+
 .paragraph {
     font-family: montserrat, sans-serif;
-    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #655950;
+
+    padding-top: 150px;
+}
+
+
+
+
+.note-title {
+    font-size: 18px;
+}
+
+.note-para {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-size: 14px;
     line-height: 24px;
     color: #655950;
 }
 
 
+
+
 .timerbox {
     font-family: montserrat, sans-serif;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 24px;
-    color: #ca7715;
+    color: #896e56;
 
-    float: right;
-    margin: 20px;
+    padding-top: 60px;
+    text-align: center;
 }
 
 
@@ -78,27 +121,48 @@ body {
     margin: 20px;
 }
 
+
+
 img {
     width: 75%;
     height: auto;
 }
 
+
 .image {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 60px;
+}
+
+
+.boxes-div {
+    width: 60%;
+    height: auto;
+    padding-top: 50px;
+
+    margin: auto;
+    text-align: center;
+}
+
+
+.boxes-div-levelthree {
+    width: 70%;
+    height: auto;
+    padding-top: 50px;
+
+    margin: auto;
+    text-align: center;
 }
 
 
 .colorbox {
-    border-radius: 100px;
-    height: 180px;
-    width: 180px;
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
 
-
-    margin: 20px;
-    flex-wrap: wrap;
+    margin: 30px;
     display: inline-block;
-    justify-content: space-around;
-    align-items: center;
-
+    cursor: pointer;
 }
+
+
