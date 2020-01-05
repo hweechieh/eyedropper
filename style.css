@@ -50,7 +50,7 @@ body {
     width: 12%;
 
     padding-top: 50px;
-    padding-left: 20px;
+    padding-left: 24px;
     cursor: pointer;
 }
 
@@ -66,6 +66,16 @@ body {
 }
 
 
+.about-para {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #655950;
+
+    padding-top: 40px;
+}
+
 
 
 .instruction-emoji {
@@ -79,7 +89,7 @@ body {
     line-height: 24px;
     color: #655950;
 
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 
@@ -122,6 +132,17 @@ body {
 }
 
 
+.level-instruction {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #655950;
+
+    padding-top: 60px;
+}
+
 
 img {
     width: 75%;
@@ -159,6 +180,7 @@ img {
     height: 120px;
     width: 120px;
     border-radius: 30px;
+    outline: none;
 
     margin: 30px;
     display: inline-block;
@@ -166,3 +188,39 @@ img {
 }
 
 
+.select-btn {
+    height: 109px;
+    width: 109px;
+    border: 6px solid rgba(255, 255, 255, 0.4) ;
+}
+
+
+.finalscore-display {
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: #ca7715;
+    font-size: 50px;
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.win-emoji {
+    font-size: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.final-description {
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+    color: #655950;
+
+    padding-top: 60px;
+}
