@@ -176,6 +176,15 @@ img {
 }
 
 
+.right-answer-div {
+    margin: auto;
+    padding-top: 30px;
+    width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+
 .colorbox {
     height: 120px;
     width: 120px;
@@ -189,8 +198,8 @@ img {
 
 
 .select-btn {
-    height: 109px;
-    width: 109px;
+    height: 107px;
+    width: 107px;
     border: 6px solid rgba(255, 255, 255, 0.4) ;
 }
 

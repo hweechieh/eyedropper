@@ -40,7 +40,7 @@ This is a game suitable for anyone who fancy a good challenge in memorizing colo
     Level 03: 4/9
     Level 04: 4/10
     Level 05: 4/10
-    Level 06: 4/12
+    Level 06: 3/10
         Level 07: 18 (further)
         Level 08: 20 (further)
 

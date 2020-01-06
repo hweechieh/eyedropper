@@ -19,19 +19,22 @@ var levelSixScore = 0;
 var levelOne = {
     tomnjerry : {
         image : 'images/levelOne/tomnjerry.png',
-        colors : ["#4778c4", "#eeb8c6", "#3a0203", "#fbdf3d", "#ff8a00", "#00c8bc", "#941f24"] ,
+        correct: 'images/levelOne/tomnjerry-right.png',
+        colors : ["#3d7ed2", "#feb9cf", "#ffe400", "#a55b14", "#ff8a00", "#00c8bc", "#941f24"] ,
         status : [true , true , true , true , false , false , false]
     },
 
-    mickeymouse : {
-        image : 'images/levelOne/mickeymouse.png',
-        colors : ["#d77b6c", "#6b0e07", "#c58500", "#957e6e", "#8efbff", "#54b898", "#7e7bff"] ,
+    lionking : {
+        image : 'images/levelOne/lionking.png',
+        correct: 'images/levelOne/lionking-right.png',
+        colors : ["#b9411e", "#f1b8a4", "#024f6b", "#d73c27", "#f62200", "#8cd6e8", "#bc9100"] ,
         status : [true , true , true , true , false , false , false]
     },
 
     winniethepooh : {
         image : 'images/levelOne/winniethepooh.png',
-        colors : ["#ca645f", "#a30601", "#cc8c22", "#9d391f", "#ff5b31", "#ff5595", "#9d9800"] ,
+        correct: 'images/levelOne/winniethepooh-right.png',
+        colors : ["#cc8c22", "#a30601", "#ca645f", "#fec436", "#ff5b31", "#ff5595", "#9d9800"] ,
         status : [true , true , true , true , false , false , false]
     }
 };
@@ -41,19 +44,22 @@ var levelOne = {
 var levelTwo = {
     castle : {
         image : 'images/levelTwo/castle.png',
-        colors : ["#1d3945", "#66aca1", "#c39e81", "#58353c", "#53bad9", "#caf1ae", "#a32721", "#ce92a6"] ,
+        correct: 'images/levelTwo/castle-right.png',
+        colors : ["#0f76a3", "#eece74", "#ab5030", "#67765b", "#53bad9", "#caf1ae", "#a32721", "#ce92a6"] ,
         status : [true , true , true , true , false , false , false, false]
     },
 
     ponyo : {
         image : 'images/levelTwo/ponyo.png',
-        colors : ["#288898", "#e17862", "#eac6a4", "#e3bd40", "#b31628", "#7b5c3e", "#ff2c00", "#ffe424"] ,
+        correct: 'images/levelTwo/ponyo-right.png',
+        colors : ["#f94e5d", "#f1715b", "#008b9b", "#eec29c", "#b31628", "#7b5c3e", "#ff2c00", "#ffe424"] ,
         status : [true , true , true , true , false , false , false, false]
     },
 
     spiritedaway : {
         image : 'images/levelTwo/spiritedaway.png',
-        colors : ["#2f6f9a", "#cee0ec", "#e1d3b9", "#89b089", "#00fffa", "#725304", "#4148ba", "#a6ba37"] ,
+        correct: 'images/levelTwo/spiritedaway-right.png',
+        colors : ["#0574a2", "#7eb385", "#e4d0b5", "#c9e0ee", "#00fffa", "#725304", "#4148ba", "#a6ba37"] ,
         status : [true , true , true , true , false , false , false, false]
     }
 };
@@ -63,19 +69,22 @@ var levelTwo = {
 var levelThree = {
     janice : {
         image : 'images/levelThree/janice.png',
-        colors : ["#b9c9cc", "#899c91", "#eed1bf", "#6a4036", "#f8d5cf", "#69604f", "#b0331d", "#518a95", "#401b0e"] ,
+        correct: 'images/levelThree/janice-right.png',
+        colors : ["#b5cacd", "#849d90", "#f7c3b2", "#723e35", "#f8d5cf", "#69604f", "#b0331d", "#518a95", "#401b0e"] ,
         status : [true , true , true , true , false , false , false , false, false]
     },
 
     markconlan : {
         image : 'images/levelThree/markconlan.png',
-        colors : ["#61d1c2", "#d8d0b1", "#33767f", "#ec6565", "#96d873", "#569e2f", "#5e5536", "#00aacc", "#e18b18"] ,
+        correct: 'images/levelThree/markconlan-right.png',
+        colors : ["#11d3c3", "#ff5a61", "#12848e", "#f9c909", "#96d873", "#569e2f", "#5e5536", "#00aacc", "#e18b18"] ,
         status : [true , true , true , true , false , false , false , false, false]
     },
 
     whooli : {
         image : 'images/levelThree/whooli.png',
-        colors : ["#e7d8c3", "#9a9b7b", "#e5958c", "#2e775d", "#49aab2", "#bfff1b", "#ffc630", "#25b9ff", "#004196"] ,
+        correct: 'images/levelThree/whooli-right.png',
+        colors : ["#edc39d", "#aec279", "#68c8c5", "#615d39", "#49aab2", "#bfff1b", "#ffc630", "#25b9ff", "#004196"] ,
         status : [true , true , true , true , false , false , false , false, false]
     }
 };
@@ -85,19 +94,22 @@ var levelThree = {
 var levelFour = {
     farmhouse : {
         image : 'images/levelFour/farmhouse.png',
-        colors : ["#adc2be", "#99401f", "#a6ac60", "#394949", "#d4b25c", "#78ffe8", "#ffd444", "#5bd45b", "#f6ff74", "#bb781b"] ,
+        correct: 'images/levelFour/farmhouse-right.png',
+        colors : ["#d6c169", "#8eb059", "#a93e14", "#7fc2b6", "#d4b25c", "#78ffe8", "#ffd444", "#5bd45b", "#f6ff74", "#bb781b"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     potato : {
         image : 'images/levelFour/potato.png',
-        colors : ["#f91030", "#221004", "#fafa79", "#bd6e2a", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
+        correct: 'images/levelFour/potato-right.png',
+        colors : ["#ff0000", "#fbfa7c", "#b17600", "#deaf35", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     starrynight : {
         image : 'images/levelFour/starrynight.png',
-        colors : ["#1b2329", "#b1a03f", "#9ca852", "#25358c", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9"] ,
+        correct: 'images/levelFour/starrynight-right.png',
+        colors : ["#bfa000", "#3b48a7", "#9eb67d", "#7d9abc", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     }
 };
@@ -107,18 +119,21 @@ var levelFour = {
 var levelFive = {
     grass : {
         image : 'images/levelFive/grass.png',
-        colors : ["#eee082", "#e3ad2f", "#1e4b7d", "#e9f5ef", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497"] ,
+        correct: 'images/levelFive/grass-right.png',
+        colors : ["#f4e56f", "#234f7f", "#cb9025", "#071b30", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     landscape : {
         image : 'images/levelFive/landscape.png',
-        colors : ["#f91030", "#221004", "#fafa79", "#bd6e2a", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
+        correct: 'images/levelFive/landscape-right.png',
+        colors : ["#6e552d", "#9fab5f", "#143428", "#696315", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
-    tree : {
-        image : 'images/levelFive/tree.png',
+    nile : {
+        image : 'images/levelFive/nile.png',
+        correct: 'images/levelFive/nile-right.png',
         colors : ["#1b2329", "#b1a03f", "#9ca852", "#25358c", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     }
@@ -129,20 +144,24 @@ var levelFive = {
 var levelSix = {
     alex : {
         image : 'images/levelSix/alex.png',
-        colors : ["#eee082", "#e3ad2f", "#1e4b7d", "#e9f5ef", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497", "#006497", "#006497"] ,
-        status : [true , true , true , true , false , false , false , false, false, false, false, false]
+        correct: 'images/levelSix/alex-right.png',
+        colors : ["#64a5c0", "#282f3f", "#bf9c5e", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497", "#006497"] ,
+        status : [true , true , true , false , false , false , false, false, false, false, false]
+
     },
 
     erwin : {
         image : 'images/levelSix/erwin.png',
-        colors : ["#f91030", "#221004", "#fafa79", "#bd6e2a", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294", "#006497", "#006497"] ,
-        status : [true , true , true , true , false , false , false , false, false, false, false, false]
+        correct: 'images/levelSix/erwin-right.png',
+        colors : ["#d5b34c", "#392919", "#83572b", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294", "#006497"] ,
+        status : [true , true , true , false , false , false , false, false, false, false]
     },
 
-    william : {
-        image : 'images/levelSix/william.png',
-        colors : ["#1b2329", "#b1a03f", "#9ca852", "#25358c", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9", "#006497", "#006497"] ,
-        status : [true , true , true , true , false , false , false , false, false, false, false, false]
+    tim : {
+        image : 'images/levelSix/tim.png',
+        correct: 'images/levelSix/tim-right.png',
+        colors : ["#cb3739", "#5d6037", "#ab7e5d", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9", "#006497"] ,
+        status : [true , true , true , false , false , false , false, false, false, false]
     }
 };
 
@@ -367,16 +386,12 @@ function showLevelOneColorBox(objectSelected) {
     levelOneScoreDisplay.classList.add("timerbox");
 
 
-    // window.screenScore = document.createElement("div");
-    // screenScore.classList.add("timerbox");
-
-
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -399,6 +414,7 @@ function showLevelOneColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv);
         document.body.prepend(levelOneScoreDisplay)
+        document.body.appendChild(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -406,21 +422,11 @@ function showLevelOneColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showLevelTwoImage())
         document.body.removeChild(levelOneScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
 }
-
-
-        /*
-    score on screen
-    */
-// function showScore() {
-//     window.screenScore = document.createElement("div");
-//     screenScore.classList.add("timerbox");
-//     screenScore.innerText = "Score: " + window.score;
-//     document.body.appendChild(screenScore);
-// }
 
 
 
@@ -477,7 +483,7 @@ function showLevelTwoColorBox(objectSelected) {
 
     var divFour = document.createElement("div");
     var chooseFour = document.createElement("p");
-    chooseFour.classList.add("paragraph");
+    chooseFour.classList.add("level-instruction");
     chooseFour.innerText = ("Select four colors present in the previous image");
     divFour.appendChild(chooseFour);
     document.body.appendChild(divFour);
@@ -542,17 +548,12 @@ function showLevelTwoColorBox(objectSelected) {
     levelTwoScoreDisplay.classList.add("timerbox");
 
 
-    // window.screenScore = document.createElement("div");
-    // screenScore.classList.add("timerbox");
-    // screenScore.innerText = "You scored " + window.score + " out of 4! ✨";
-
-
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -575,6 +576,7 @@ function showLevelTwoColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelTwoScoreDisplay)
+        document.body.appendChild(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -582,23 +584,11 @@ function showLevelTwoColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showLevelThreeImage())
         document.body.removeChild(levelTwoScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
 }
-
-
-        /*
-    score on screen
-    */
-// function showScore() {
-//     window.screenScore = document.createElement("div");
-//     screenScore.classList.add("timerbox");
-//     screenScore.innerText = "Score: " + window.score;
-//     document.body.appendChild(screenScore);
-// }
-
-
 
 
 
@@ -652,7 +642,7 @@ function showLevelThreeColorBox(objectSelected) {
 
     var divFour = document.createElement("div");
     var chooseFour = document.createElement("p");
-    chooseFour.classList.add("paragraph");
+    chooseFour.classList.add("level-instruction");
     chooseFour.innerText = ("Select four colors present in the previous image");
     divFour.appendChild(chooseFour);
     document.body.appendChild(divFour);
@@ -718,12 +708,12 @@ function showLevelThreeColorBox(objectSelected) {
     levelThreeScoreDisplay.classList.add("timerbox");
 
 
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -746,6 +736,7 @@ function showLevelThreeColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelThreeScoreDisplay)
+        document.body.appendChild(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -753,21 +744,12 @@ function showLevelThreeColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showLevelFourImage())
         document.body.removeChild(levelThreeScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
 }
 
-
-        /*
-    score on screen
-    */
-// function showScore() {
-//     window.screenScore = document.createElement("div");
-//     screenScore.classList.add("timerbox");
-//     screenScore.innerText = "Score: " + window.score;
-//     document.body.appendChild(screenScore);
-// }
 
 
 
@@ -820,7 +802,7 @@ function showLevelFourColorBox(objectSelected) {
 
     var divFour = document.createElement("div");
     var chooseFour = document.createElement("p");
-    chooseFour.classList.add("paragraph");
+    chooseFour.classList.add("level-instruction");
     chooseFour.innerText = ("Select four colors present in the previous image");
     divFour.appendChild(chooseFour);
     document.body.appendChild(divFour);
@@ -887,12 +869,12 @@ function showLevelFourColorBox(objectSelected) {
     levelFourScoreDisplay.classList.add("timerbox");
 
 
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -915,6 +897,7 @@ function showLevelFourColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelFourScoreDisplay)
+        document.body.append(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -922,21 +905,12 @@ function showLevelFourColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showLevelFiveImage())
         document.body.removeChild(levelFourScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
 }
 
-
-        /*
-    score on screen
-    */
-// function showScore() {
-//     window.screenScore = document.createElement("div");
-//     screenScore.classList.add("timerbox");
-//     screenScore.innerText = "Score: " + window.score;
-//     document.body.appendChild(screenScore);
-// }
 
 
 
@@ -989,7 +963,7 @@ function showLevelFiveColorBox(objectSelected) {
 
     var divFour = document.createElement("div");
     var chooseFour = document.createElement("p");
-    chooseFour.classList.add("paragraph");
+    chooseFour.classList.add("level-instruction");
     chooseFour.innerText = ("Select four colors present in the previous image");
     divFour.appendChild(chooseFour);
     document.body.appendChild(divFour);
@@ -1056,12 +1030,12 @@ function showLevelFiveColorBox(objectSelected) {
     levelFiveScoreDisplay.classList.add("timerbox");
 
 
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -1084,6 +1058,7 @@ function showLevelFiveColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelFiveScoreDisplay)
+        document.body.appendChild(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -1091,21 +1066,12 @@ function showLevelFiveColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showLevelSixImage())
         document.body.removeChild(levelFiveScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
 }
 
-
-        /*
-    score on screen
-    */
-// function showScore() {
-//     window.screenScore = document.createElement("div");
-//     screenScore.classList.add("timerbox");
-//     screenScore.innerText = "Score: " + window.score;
-//     document.body.appendChild(screenScore);
-// }
 
 
 
@@ -1158,8 +1124,8 @@ function showLevelSixColorBox(objectSelected) {
 
     var divFour = document.createElement("div");
     var chooseFour = document.createElement("p");
-    chooseFour.classList.add("paragraph");
-    chooseFour.innerText = ("Select four colors present in the previous image");
+    chooseFour.classList.add("level-instruction");
+    chooseFour.innerText = ("Select three colors present in the previous image");
     divFour.appendChild(chooseFour);
     document.body.appendChild(divFour);
 
@@ -1170,7 +1136,7 @@ function showLevelSixColorBox(objectSelected) {
     levelSixBoxes.classList.add("boxes-div-levelthree");
 
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 10; i++) {
         console.log("show color boxes!")
 
         var colorbox = document.createElement("div");
@@ -1193,8 +1159,6 @@ function showLevelSixColorBox(objectSelected) {
     document.getElementById("box7").style.backgroundColor = objectSelected.colors[7];
     document.getElementById("box8").style.backgroundColor = objectSelected.colors[8];
     document.getElementById("box9").style.backgroundColor = objectSelected.colors[9];
-    document.getElementById("box10").style.backgroundColor = objectSelected.colors[10];
-    document.getElementById("box11").style.backgroundColor = objectSelected.colors[11];
 
 
     var buttons = document.getElementsByClassName("colorbox");
@@ -1227,12 +1191,12 @@ function showLevelSixColorBox(objectSelected) {
     levelSixScoreDisplay.classList.add("timerbox");
 
 
-//to show correct colors
-    // var imageChosenDiv = document.createElement("div");
-    // var imageChosen = document.createElement("img");
-    // imageChosen.src = objectSelected.image;
-    // imageChosenDiv.appendChild(imageChosen);
-    // document.body.appendChild(imageChosenDiv);
+    //display right answer
+    var rightAnswerDiv = document.createElement("div");
+    rightAnswerDiv.classList.add("right-answer-div");
+    var rightAnswer = document.createElement("img");
+    rightAnswer.src = objectSelected.correct;
+    rightAnswerDiv.appendChild(rightAnswer);
 
 
     var nextDiv = document.createElement("div");
@@ -1255,6 +1219,7 @@ function showLevelSixColorBox(objectSelected) {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelSixScoreDisplay)
+        document.body.appendChild(rightAnswerDiv)
         document.body.replaceChild(nextDiv02, nextDiv)
         }, {once : true}))
 
@@ -1262,6 +1227,7 @@ function showLevelSixColorBox(objectSelected) {
     document.getElementsByTagName(nextDiv02.addEventListener("click", function()
         {(showFinalScore())
         document.body.removeChild(levelSixScoreDisplay)
+        document.body.removeChild(rightAnswerDiv)
         document.body.removeChild(nextDiv02)
         }, {once : true}))
 
