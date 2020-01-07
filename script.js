@@ -1,6 +1,5 @@
 console.log("heya!")
 
-
 var timer = 7;
 var finalScore = 0;
 var seed = Math.floor(Math.random()*1000);
@@ -20,21 +19,21 @@ var levelOne = {
     tomnjerry : {
         image : 'images/levelOne/tomnjerry.png',
         correct: 'images/levelOne/tomnjerry-right.png',
-        colors : ["#3d7ed2", "#feb9cf", "#ffe400", "#a55b14", "#ff8a00", "#00c8bc", "#941f24"] ,
+        colors : ["#3d7ed2", "#feb9cf", "#ffe400", "#a55b14", "#5aa4eb", "#001bff", "#014630"] ,
         status : [true , true , true , true , false , false , false]
     },
 
     lionking : {
         image : 'images/levelOne/lionking.png',
         correct: 'images/levelOne/lionking-right.png',
-        colors : ["#b9411e", "#f1b8a4", "#024f6b", "#d73c27", "#f62200", "#8cd6e8", "#bc9100"] ,
+        colors : ["#b9411e", "#f1b8a4", "#024f6b", "#d73c27", "#28c3d8", "#b184f4", "#46bee1"] ,
         status : [true , true , true , true , false , false , false]
     },
 
     winniethepooh : {
         image : 'images/levelOne/winniethepooh.png',
         correct: 'images/levelOne/winniethepooh-right.png',
-        colors : ["#cc8c22", "#a30601", "#ca645f", "#fec436", "#ff5b31", "#ff5595", "#9d9800"] ,
+        colors : ["#cc8c22", "#a30601", "#ca645f", "#fec436", "#3373dd", "#5cf9fe", "#359ba0"] ,
         status : [true , true , true , true , false , false , false]
     }
 };
@@ -45,21 +44,21 @@ var levelTwo = {
     castle : {
         image : 'images/levelTwo/castle.png',
         correct: 'images/levelTwo/castle-right.png',
-        colors : ["#0f76a3", "#eece74", "#ab5030", "#67765b", "#53bad9", "#caf1ae", "#a32721", "#ce92a6"] ,
+        colors : ["#0f76a3", "#eece74", "#ab5030", "#67765b", "#f0895c", "#11318b", "#54afcf", "#9889a4"] ,
         status : [true , true , true , true , false , false , false, false]
     },
 
     ponyo : {
         image : 'images/levelTwo/ponyo.png',
         correct: 'images/levelTwo/ponyo-right.png',
-        colors : ["#f94e5d", "#f1715b", "#008b9b", "#eec29c", "#b31628", "#7b5c3e", "#ff2c00", "#ffe424"] ,
+        colors : ["#f94e5d", "#f1715b", "#008b9b", "#eec29c", "#64ff97", "#a01100", "#72eaff", "#06b1a2"] ,
         status : [true , true , true , true , false , false , false, false]
     },
 
     spiritedaway : {
         image : 'images/levelTwo/spiritedaway.png',
         correct: 'images/levelTwo/spiritedaway-right.png',
-        colors : ["#0574a2", "#7eb385", "#e4d0b5", "#c9e0ee", "#00fffa", "#725304", "#4148ba", "#a6ba37"] ,
+        colors : ["#0574a2", "#7eb385", "#e4d0b5", "#c9e0ee", "#fa8b5d", "#361f11", "#1b2f4a", "#814c7a"] ,
         status : [true , true , true , true , false , false , false, false]
     }
 };
@@ -70,21 +69,21 @@ var levelThree = {
     janice : {
         image : 'images/levelThree/janice.png',
         correct: 'images/levelThree/janice-right.png',
-        colors : ["#b5cacd", "#849d90", "#f7c3b2", "#723e35", "#f8d5cf", "#69604f", "#b0331d", "#518a95", "#401b0e"] ,
+        colors : ["#b5cacd", "#849d90", "#f7c3b2", "#723e35", "#f8d5cf", "#69604f", "#8dc1ca", "#083c4d", "#4a3532"] ,
         status : [true , true , true , true , false , false , false , false, false]
     },
 
     markconlan : {
         image : 'images/levelThree/markconlan.png',
         correct: 'images/levelThree/markconlan-right.png',
-        colors : ["#11d3c3", "#ff5a61", "#12848e", "#f9c909", "#96d873", "#569e2f", "#5e5536", "#00aacc", "#e18b18"] ,
+        colors : ["#11d3c3", "#ff5a61", "#12848e", "#f9c909", "#ee2c3c", "#00a59e", "#0636f6", "#00aacc", "#e18b18"] ,
         status : [true , true , true , true , false , false , false , false, false]
     },
 
     whooli : {
         image : 'images/levelThree/whooli.png',
         correct: 'images/levelThree/whooli-right.png',
-        colors : ["#edc39d", "#aec279", "#68c8c5", "#615d39", "#49aab2", "#bfff1b", "#ffc630", "#25b9ff", "#004196"] ,
+        colors : ["#edc39d", "#aec279", "#68c8c5", "#615d39", "#49aab2", "#9ea2c6", "#97373a", "#513d86", "#123c62"] ,
         status : [true , true , true , true , false , false , false , false, false]
     }
 };
@@ -95,21 +94,21 @@ var levelFour = {
     farmhouse : {
         image : 'images/levelFour/farmhouse.png',
         correct: 'images/levelFour/farmhouse-right.png',
-        colors : ["#d6c169", "#8eb059", "#a93e14", "#7fc2b6", "#d4b25c", "#78ffe8", "#ffd444", "#5bd45b", "#f6ff74", "#bb781b"] ,
+        colors : ["#d6c169", "#8eb059", "#a93e14", "#7fc2b6", "#d4b25c", "#78ffe8", "#293e96", "#56c1eb", "#714fa6", "#803d49"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     potato : {
         image : 'images/levelFour/potato.png',
         correct: 'images/levelFour/potato-right.png',
-        colors : ["#ff0000", "#fbfa7c", "#b17600", "#deaf35", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
+        colors : ["#ff0000", "#fbfa7c", "#b17600", "#deaf35", "#f8d23b", "#86aced", "#2150ca", "#4e89ff", "#040583", "#2150ca"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     starrynight : {
         image : 'images/levelFour/starrynight.png',
         correct: 'images/levelFour/starrynight-right.png',
-        colors : ["#bfa000", "#3b48a7", "#9eb67d", "#7d9abc", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9"] ,
+        colors : ["#bfa000", "#3b48a7", "#9eb67d", "#7d9abc", "#d3d98f", "#b1db61", "#614982", "#405fff", "#c4b758", "#826543"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     }
 };
@@ -120,21 +119,21 @@ var levelFive = {
     grass : {
         image : 'images/levelFive/grass.png',
         correct: 'images/levelFive/grass-right.png',
-        colors : ["#f4e56f", "#234f7f", "#cb9025", "#071b30", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497"] ,
+        colors : ["#f4e56f", "#234f7f", "#cb9025", "#071b30", "#9effce", "#0074ff", "#f8e4cf", "#346fda", "#dcb080", "#0b1a90"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     landscape : {
         image : 'images/levelFive/landscape.png',
         correct: 'images/levelFive/landscape-right.png',
-        colors : ["#6e552d", "#9fab5f", "#143428", "#696315", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294"] ,
+        colors : ["#6e552d", "#9fab5f", "#143428", "#696315", "#f8d23b", "#86aced", "#91aad2", "#6054a0", "#ebcbd7", "#969cea"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     },
 
     nile : {
         image : 'images/levelFive/nile.png',
         correct: 'images/levelFive/nile-right.png',
-        colors : ["#1b2329", "#b1a03f", "#9ca852", "#25358c", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9"] ,
+        colors : ["#7b460d", "#7f91a8", "#648cc4", "#000507", "#d3d98f", "#b1db61", "#84b9f2", "#806e57", "#9b733b", "#ff5e1d"] ,
         status : [true , true , true , true , false , false , false , false, false, false]
     }
 };
@@ -145,7 +144,7 @@ var levelSix = {
     alex : {
         image : 'images/levelSix/alex.png',
         correct: 'images/levelSix/alex-right.png',
-        colors : ["#64a5c0", "#282f3f", "#bf9c5e", "#9effce", "#0074ff", "#ffb900", "#ffda00", "#185410", "#006497", "#006497"] ,
+        colors : ["#bf9c5e", "#282f3f", "#64a5c0", "#0074ff", "#ffb900", "#ffda00", "#9b5a3f", "#d7d0c0", "#4063a1", "#49a481"] ,
         status : [true , true , true , false , false , false , false, false, false, false, false]
 
     },
@@ -153,14 +152,14 @@ var levelSix = {
     erwin : {
         image : 'images/levelSix/erwin.png',
         correct: 'images/levelSix/erwin-right.png',
-        colors : ["#d5b34c", "#392919", "#83572b", "#f8d23b", "#86aced", "#ffff2b", "#df8200", "#b43900", "#ffd294", "#006497"] ,
+        colors : ["#d5b34c", "#392919", "#83572b", "#86aced", "#ffff2b", "#df8200", "#2a4cb3", "#c6d6e6", "#7ca8d4", "#49a481"] ,
         status : [true , true , true , false , false , false , false, false, false, false]
     },
 
     tim : {
         image : 'images/levelSix/tim.png',
         correct: 'images/levelSix/tim-right.png',
-        colors : ["#cb3739", "#5d6037", "#ab7e5d", "#d3d98f", "#b1db61", "#1c83ff", "#0b33cd", "#d77a00", "#7bffc9", "#006497"] ,
+        colors : ["#cb3739", "#5d6037", "#ab7e5d", "#b1db61", "#1c83ff", "#0b33cd", "#34c8c6", "#a29fc8", "#5481a2", "#49a481"] ,
         status : [true , true , true , false , false , false , false, false, false, false]
     }
 };
@@ -233,7 +232,7 @@ note.innerText = "⚠️ Note:"
 
 var instructionPara = document.createElement("p");
 instructionPara.classList.add("paragraph");
-instructionPara.innerText = ("\n \n Hello there! \n In this game, your eyes will be the eyedropper! \n \n Here's what you gotta do: \n \n 1. Look closely at the images and remember the colors for SIX LEVELS. \n You have limited time to remember as much as you can. \n \n 2. When time is up, choose wisely!\n No time limit! \n \n If you score >= 20, you're a certified professional eyedropper 🏆 \n (that's a pretty big deal 👻) \n \n \n");
+instructionPara.innerText = ("\n \n Hello there! \n In this game, your eyes will be the eyedropper! \n \n Here's what you gotta do: \n \n 1. Look closely at the images and remember the colors for SIX LEVELS. \n You have limited time to remember as much as you can. \n \n 2. When time is up, choose wisely because you can't unselect!\n No time limit! \n \n If you score >= 20, you're a certified professional eyedropper 🏆 \n (that's a pretty big deal 👻) \n \n \n");
 instructionPara.prepend(instructionEmoji);
 instructionPara.appendChild(note);
 
@@ -265,7 +264,9 @@ aboutDiv.appendChild(aboutPara);
 /////////////////////////////////////////////////// LEVEL ONE ///////////////////////////////////////////////////
 function showLevelOneImage() {
 
+    //It will return the keys in level one as arrays: [image, colors, status, correct]
     var toSelect = Object.keys(levelOne);
+
 
     //generate random index from 0 - 2 from the toSelect array
     var randomNum = Math.floor(random() * Math.floor(3));
@@ -383,7 +384,7 @@ function showLevelOneColorBox(objectSelected) {
 
 
     window.levelOneScoreDisplay = document.createElement("div");
-    levelOneScoreDisplay.classList.add("timerbox");
+    levelOneScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -403,19 +404,20 @@ function showLevelOneColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelOneBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv);
         document.body.prepend(levelOneScoreDisplay)
-        document.body.appendChild(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelOneBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -446,7 +448,9 @@ function showLevelTwoImage() {
 
 
     /*
-    'window' is used so that the global var 'timer = 7' will be reset to any new value
+    'window' is used so that the global var 'timer = 7' will be reset to any new value because it now explicitly
+    establish the new timer as a global
+
     timerBox needs to be renamed to timerBox02 because the same var name won't enable to timer to run
     Same goes for timerInterval --> timerInterval02
     */
@@ -545,7 +549,7 @@ function showLevelTwoColorBox(objectSelected) {
 
 
     window.levelTwoScoreDisplay = document.createElement("div");
-    levelTwoScoreDisplay.classList.add("timerbox");
+    levelTwoScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -565,19 +569,20 @@ function showLevelTwoColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelTwoBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelTwoScoreDisplay)
-        document.body.appendChild(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelTwoBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -705,7 +710,7 @@ function showLevelThreeColorBox(objectSelected) {
 
 
     window.levelThreeScoreDisplay = document.createElement("div");
-    levelThreeScoreDisplay.classList.add("timerbox");
+    levelThreeScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -725,19 +730,20 @@ function showLevelThreeColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelThreeBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelThreeScoreDisplay)
-        document.body.appendChild(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelThreeBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -866,7 +872,7 @@ function showLevelFourColorBox(objectSelected) {
 
 
     window.levelFourScoreDisplay = document.createElement("div");
-    levelFourScoreDisplay.classList.add("timerbox");
+    levelFourScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -886,19 +892,20 @@ function showLevelFourColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelFourBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelFourScoreDisplay)
-        document.body.append(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelFourBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -1027,7 +1034,7 @@ function showLevelFiveColorBox(objectSelected) {
 
 
     window.levelFiveScoreDisplay = document.createElement("div");
-    levelFiveScoreDisplay.classList.add("timerbox");
+    levelFiveScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -1047,19 +1054,20 @@ function showLevelFiveColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelFiveBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelFiveScoreDisplay)
-        document.body.appendChild(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelFiveBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -1188,7 +1196,7 @@ function showLevelSixColorBox(objectSelected) {
 
 
     window.levelSixScoreDisplay = document.createElement("div");
-    levelSixScoreDisplay.classList.add("timerbox");
+    levelSixScoreDisplay.classList.add("screenscore");
 
 
     //display right answer
@@ -1208,19 +1216,20 @@ function showLevelSixColorBox(objectSelected) {
 
 
     var nextDiv02 = document.createElement("div");
-    nextDiv02.classList.add("next-button")
+    nextDiv02.classList.add("next-button02")
     var nextButton = document.createElement("img");
     nextButton.src = ("assets/next.png");
     nextDiv02.appendChild(nextButton);
 
 
     document.getElementsByTagName(nextDiv.addEventListener("click", function()
-        {document.body.removeChild(levelSixBoxes)
+        {
         document.body.removeChild(divFour)
         document.body.removeChild(levelNameDiv)
         document.body.prepend(levelSixScoreDisplay)
-        document.body.appendChild(rightAnswerDiv)
+        document.body.replaceChild(rightAnswerDiv, levelSixBoxes)
         document.body.replaceChild(nextDiv02, nextDiv)
+        document.body.appendChild(rightAnswerDiv)
         }, {once : true}))
 
 
@@ -1277,12 +1286,6 @@ function showFinalScore() {
 }
 
 
-
-
-
-
-
-
 /////////////// SHUFFLE ARRAY ///////////////
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -1304,6 +1307,14 @@ function shuffle(array) {
 }
 
 
+
+// /////////// REPLAY BTN ///////////
+// var replayDiv = document.createElement("div");
+// replayDiv.src =
+
+
+
+//Used seed to create our own random to be used for the status portion
 /////////// RANDOMISE WITH SEED ///////////
 function random() {
     var x = Math.sin(seed) * 10000;
@@ -1314,12 +1325,13 @@ function random() {
 /////////////// TRACK LEVEL SCORE ///////////////
 function addPoints(display, scoreUsed) {
     scoreUsed = scoreUsed + 1;
-    display.innerText = "You scored " + scoreUsed + " out of 4! 🌟";
+    display.innerText = "You scored " + scoreUsed + " this level! 🌟";
     return scoreUsed
 }
 
+
 function deductPoints(display, scoreUsed) {
-    scoreUsed = scoreUsed - 1;
+    scoreUsed = scoreUsed - 0;
     display.innerText = "You scored " + scoreUsed + " out of 4! 🌟";
     return scoreUsed
 }
@@ -1334,6 +1346,7 @@ function countdownTimer(itemToCountDown) {
         stopTimer();
     }
 }
+
 
 function stopTimer(interval) {
     clearInterval(interval);

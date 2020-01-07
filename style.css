@@ -31,7 +31,7 @@ body {
 
 .div-container {
     margin: auto;
-    width: 50%;
+    width: 55%;
     height: auto;
 }
 
@@ -63,6 +63,19 @@ body {
     padding-top: 70px;
     cursor: pointer;
     text-align: center;
+}
+
+
+.next-button02 {
+    width: 12%;
+    height: auto;
+
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    float: right;
+    padding-top: 660px;
+    padding-right: 30px;
 }
 
 
@@ -112,7 +125,7 @@ body {
 
 .timerbox {
     font-family: montserrat, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     color: #896e56;
 
@@ -121,31 +134,42 @@ body {
 }
 
 
+.timerbox-colorchoices {
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #896e56;
+
+    display: inline-block;
+}
+
+
 .screenscore {
     font-family: montserrat, sans-serif;
     font-weight: bold;
-    font-size: 24px;
-    color: #ca7715;
+    font-size: 30px;
+    color: #896e56;
 
-    float: right;
-    margin: 20px;
+    padding-top: 50px;
+    text-align: center;
+
 }
 
 
 .level-instruction {
     font-family: montserrat, sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 24px;
     color: #655950;
 
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 
 img {
-    width: 75%;
+    width: 70%;
     height: auto;
 }
 
@@ -178,8 +202,8 @@ img {
 
 .right-answer-div {
     margin: auto;
-    padding-top: 30px;
-    width: 70%;
+    padding-top: 40px;
+    width: 80%;
     height: auto;
     text-align: center;
 }
